@@ -1,0 +1,29 @@
+/*Style for the base of the page.*/
+body {
+  background-color: azure;
+}
+
+/*Style for the container of the forms.*/
+.maincontent {
+  background-color: ivory;
+  width: 1200px;
+  height: 500px;
+}
+
+/*Style for the forms. */
+#firstform,
+#secondform {
+  border: 1px solid black;
+  width: 1080px;
+}
+
+/*Style for the buttons.*/
+.buttons {
+  width: 150px;
+  height: 30px;
+}
+
+/*If the user moves the cursor to the button.*/
+.buttons:hover {
+  cursor: pointer;
+}
